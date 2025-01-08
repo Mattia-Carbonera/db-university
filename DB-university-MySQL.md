@@ -50,7 +50,7 @@ WHERE `level` LIKE "magistrale";
 
 7. Da quanti dipartimenti è composta l'università? (12):
 
-SELECT \*
+SELECT COUNT(`id`) AS `number`
 FROM `departments`;
 
 ---
